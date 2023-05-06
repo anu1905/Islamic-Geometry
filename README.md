@@ -1,4 +1,4 @@
-# Islamic Geometry-based Period Tracking and Moon Phase Calendar
+# Period Tracking and Moon Phase Calendar
 
 _By Anuradha Reddy and arturo182_
 
