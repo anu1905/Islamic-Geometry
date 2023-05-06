@@ -1,4 +1,4 @@
-# Islamic geometry-based Period Tracking and Moon phase Calendar
+# Islamic Geometry-based Period Tracking and Moon Phase Calendar
 
 _By Anuradha Reddy and arturo182_
 
@@ -24,7 +24,7 @@ Soon the most beautiful Islamic geometry-inspired circuit board was in our hands
 
 ![alt text](./Islamic_geometry_3.jpg)
 
-Meanwhile, my obsession with Islamic geometry grew, and I learned all sorts of interesting meanings and symbolisms around the art – symmetry, unity, harmony, and balance. By drawing connections to symmetrical natural cycles sacred to many cultures and practices, I landed on experimenting with moon phases on the board. arturo182 helped manually program each unit of ten LEDs using a coded array to reflect four phases of the moon (first-quarter, full moon, third-quarter, new moon). The total grid of 30 ten-pointed stars allowed us to visualize the board as a monthly moon-phase calendar. Another silver lining was learning that lunar months alternate between 29-30 days, i.e., we could ignore months with 31 days. We initially chose white (#FFFFFF) for the LEDs representing the moon phases (the new moon phase was on a dimmer setting to indicate a fresh start). The board looked beautiful, but it still felt scant. It needed something more.
+Meanwhile, my obsession with Islamic geometry grew, and I learned all sorts of interesting meanings and symbolisms around the art – symmetry, unity, harmony, and balance. By drawing connections to symmetrical natural cycles sacred to many cultures and practices, I landed on experimenting with moon phases on the board. arturo182 helped manually program each unit of ten LEDs using a coded array to reflect four phases of the moon (first-quarter, full moon, third-quarter, new moon). The total grid of 30 ten-pointed stars allowed us to visualize the board as a monthly moon phase calendar. Another silver lining was learning that lunar months alternate between 29-30 days, i.e., we could ignore months with 31 days. We initially chose white (#FFFFFF) for the LEDs representing the moon phases (the new moon phase was on a dimmer setting to indicate a fresh start). The board looked beautiful, but it still felt scant. It needed something more.
 
 ![alt text](./Islamic_geometry_2.jpg)
   
