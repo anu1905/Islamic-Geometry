@@ -2,14 +2,14 @@ import time
 import board
 import neopixel
 
-
+#make sure you have the right pixel pin for your board 
+#this code uses Solder Party's 2040 Stamp Round Carrier
 pixel_pin = board.GP11
 num_pixels = 250
 
-
-
 pixels = neopixel.NeoPixel(pixel_pin, num_pixels, brightness=0, auto_write=False)
 
+#array of star pattern units of 10 LEDs each - 30 units in total
 moons = [
     [0,     1,   2,   3,   4,   5,   6,   7,   8,   9],
     [10,    6,   7,  11,  12,  13,  14,  15,  16,  17],
@@ -43,7 +43,6 @@ moons = [
     [242, 238, 239, 243, 244, 245, 246, 247, 248, 249]
 ]
 
-
 def show_fullmoon(moon, color):
     for i in range(10):
         pixels[moons[moon][i]] = color
@@ -66,7 +65,8 @@ def period(moon, color):
     for i in range(10):
         pixels[moons[moon][i]] = color
 
-
+#edit the moon-phases and period days every month - e.g, period days from 1st-5th of a month, full moon on the 6th day and so on
+#check moon-phases from https://www.timeanddate.com/moon/phases/
 period(2, 0x330019)
 period(3, 0x330019)
 period(4, 0x330019)
@@ -76,18 +76,3 @@ show_fullmoon(7, 0x190033)
 show_firstquarter(15, 0x190033)
 show_newmoon(22, 0x0F000F)
 show_thirdquarter(29, 0x190033)
-
-
-#pulsing the LEDs
-
-#d = 0.1
-#x = 0.01
-#i = 0
-
-#while pixels.brightness < 0.2:
-#    pixels.brightness += x
-#    pixels.show()
-#    time.sleep(0.05)
-
-while True:
-    pass
