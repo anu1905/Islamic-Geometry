@@ -2,7 +2,7 @@
 
 _By Anuradha Reddy and arturo182_
 
-Email: anu@duck.com
+Correspondence email: anu@duck.com
 
 Twitter: @anu1905, @arturo182
 
