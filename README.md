@@ -24,10 +24,15 @@ Soon the most beautiful Islamic geometry-inspired circuit board was in our hands
 
 ![alt text](./Islamic_geometry_3.jpg)
 
-Meanwhile, my obsession with Islamic geometry grew, and I learned all sorts of interesting meanings and symbolisms around the art – symmetry, unity, harmony, and balance. By drawing connections to symmetrical natural cycles sacred to many cultures and practices, I landed on experimenting with moon phases on the board. arturo182 helped manually program each unit of ten LEDs using a coded array to reflect four phases of the moon (first-quarter, full moon, third-quarter, new moon). The total grid of 30 ten-pointed stars allowed us to visualize the board as a monthly moon phase calendar. Another silver lining was learning that lunar months alternate between 29-30 days, i.e., we could ignore months with 31 days. We initially chose white (#FFFFFF) for the LEDs representing the moon phases (the new moon phase was on a dimmer setting to indicate a fresh start). The board looked beautiful, but it still felt scant. It needed something more.
+Meanwhile, my obsession with Islamic geometry grew, and I learned all sorts of interesting meanings and symbolisms embodied in the artform – symmetry, unity, harmony, and balance. By drawing connections to symmetrical natural cycles sacred to many cultures and practices, I landed on experimenting with moon phases on the board. arturo182 helped manually program each unit of ten LEDs using a coded array to reflect four phases of the moon (first-quarter, full moon, third-quarter, new moon). The total grid of 30 ten-pointed stars allowed us to visualize the board as a monthly moon phase calendar. Another silver lining was learning that lunar months alternate between 29-30 days, i.e., we could ignore months with 31 days. We initially chose white (#FFFFFF) for the LEDs representing the moon phases (the new moon phase was on a dimmer setting to indicate a fresh start). The board looked beautiful, but it still felt scant. It needed something more.
 
 ![alt text](./Islamic_geometry_2.jpg)
   
 With the overturning of the Roe v. Wade legislation, it didn’t take me long to imagine my monthly period tracking data alongside the moon phase calendar. This was when the project came together. I manually programmed the LEDs to reflect the two natural cycles in delectable twilight colours: #330019 - period tracking and #190033 - moon phases. It made sense to bring more beauty to these natural cycles and to see them together – a way to push back against the misogyny surrounding our female bodies. Even better, seeing my period days overlap with the moon phases gave me a feeling for when my next cycle will arrive. Despite being a manual process of updating the board each month, I feel more empowered to visualize my cycle, locally and privately, than hide it from those who wish to take control of female bodies and their data. 
 
 ![alt text](./Islamic_geometry_1.jpg)
+
+## License information
+The Islamic geometry board hardware design is licensed under the **CERN Open Hardware Licence**.
+
+This documentation is licensed under the **Creative Commons Attribution-Non Commercial License**.
