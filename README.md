@@ -41,4 +41,4 @@ With the overturning of the Roe v. Wade legislation, it didn’t take me long to
 ## License information
 The Islamic geometry board hardware design is licensed under the **CERN Open Hardware Licence**.
 
-This documentation is licensed under the **CC-BY-4.0 License**.
+This documentation is licensed under the **CC-BY-SA-4.0 License**.
