@@ -1,4 +1,3 @@
-import time
 import board
 import neopixel
 
@@ -50,9 +49,9 @@ def show_fullmoon(moon, color):
 def show_firstquarter(moon, color):
     for i in range(5):
         pixels[moons[moon][i]] = color
-        
+    
     pixels[moons[moon][9]] = color
-        
+    
 def show_thirdquarter(moon, color):
     for i in range(4, 10):
         pixels[moons[moon][i]] = color
@@ -65,7 +64,7 @@ def period(moon, color):
     for i in range(10):
         pixels[moons[moon][i]] = color
 
-#edit the moon-phases and period days every month - e.g, period days from 1st-5th of a month, full moon on the 6th day and so on
+#edit the moon-phases and period days every month - e.g, period days from 3st-7th of a month, full moon on the 8th day and so on
 #check moon-phases from https://www.timeanddate.com/moon/phases/
 period(2, 0x330019)
 period(3, 0x330019)
